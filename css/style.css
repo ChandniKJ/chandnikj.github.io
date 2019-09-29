@@ -278,6 +278,7 @@ border: none;
   height:400px;
     display:inline-block;
 	margin:10px 10px 10px 10px;
+	margin-bottom:80px;
 }
 .blog img {
 margin:8px 8px 8px 8px;
@@ -349,6 +350,7 @@ div.desc {
 	margin-bottom:70px;
 	font-weight:bold;
 	margin-top:70px;
+	margin-bottom:80px;
 }
 .quote1{
 	position:relative;
