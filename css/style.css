@@ -158,8 +158,8 @@ border: none;
   text-align: center;
   cursor: pointer;
   font-size:1.2em;
+  margin-top:2%;
 	font-weight:bold;
-	margin-bottom:150px;
 }
 .book button:hover {
   background-color:black;
