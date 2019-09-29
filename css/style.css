@@ -248,7 +248,7 @@ border: none;
 	width:100%;
 	float:inherit;
 	text-align:center;
-	margin-bottom:80px;
+	margin-bottom:150px;
 }
 .gallery img{
 	filter:grayscale(100);
@@ -323,7 +323,7 @@ div.desc {
 	width:100%;
 	float:inherit;
 	text-align:center;
-	margin-bottom:80px;
+	margin-bottom:150px;
 }
 .press img{
 	filter:grayscale(100);
@@ -332,6 +332,7 @@ div.desc {
 	margin-left:15px;
 	width:325px;
 	transition:1s;
+	margin-bottom:150px;
 }
 .press img:hover{
 	filter:grayscale(0);
