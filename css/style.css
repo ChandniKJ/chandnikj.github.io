@@ -351,7 +351,7 @@ div.desc {
 	margin-bottom:70px;
 	font-weight:bold;
 	margin-top:70px;
-	margin-bottom:80px;
+	margin-bottom:180px;
 }
 .quote1{
 	position:relative;
@@ -373,7 +373,7 @@ div.desc {
 	overflow:hidden;
 	box-sizing:borderbox;
 	max-width:500px;
-	height:auto;
+	height:1;
 	text-align:center;
 	float:right;
 	background:rgba(0,0,0,0.7);
