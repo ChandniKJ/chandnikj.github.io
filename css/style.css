@@ -145,7 +145,7 @@
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -30%);
-	margin-bottom:80px;
+	margin-bottom:150px;
 	margin-top:1.5%;
 }
 .book button{
@@ -159,6 +159,7 @@ border: none;
   cursor: pointer;
   font-size:1.2em;
 	font-weight:bold;
+	margin-bottom:150px;
 }
 .book button:hover {
   background-color:black;
@@ -382,7 +383,7 @@ div.desc {
 	font-size:18 px;
 `	position:absolute;
 	font-weight:bold;
-	margin-bottom:80px;
+	margin-bottom:150px;
 }
 .label{
 	color:white;
