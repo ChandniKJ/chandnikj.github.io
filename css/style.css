@@ -278,7 +278,7 @@ border: none;
   height:400px;
     display:inline-block;
 	margin:10px 10px 10px 10px;
-	margin-bottom:80px;
+	margin-bottom:100px;
 }
 .blog img {
 margin:8px 8px 8px 8px;
@@ -458,8 +458,8 @@ border: none;
 .click button:hover {
   background-color:white;
   color: black;
-    font-size:1.2em;
-	font-weight:bold;
+   font-size:1.2em;
+font-weight:bold;
 }
 .space{
 	width:100%;
@@ -468,8 +468,7 @@ border: none;
 	position:relative;
 	margin-top:800px;
 	float:none;
-}
-	
+}	
 .footer {
    position: fixed;
    left: 0;
