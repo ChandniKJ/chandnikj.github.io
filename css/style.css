@@ -1,0 +1,470 @@
+
+.navbar{
+	 background-color: black!important;
+	 color:white!important;
+	 font-family:Century Gothic!important;
+	font-weight:bold!important;
+	position: fixed;
+	z-index:1000;
+
+}	
+.navbar .navbar-nav li a{
+	color:white!important;
+	font-family:Century Gothic!important;
+	font-weight:bold!important;
+}
+.navbar .navbar-nav li a:hover{
+	background-color:#ec008c;
+	color:white;
+	font-family:Century Gothic!important;
+	font-weight:bold!important;
+}
+#collapsibleNavbar img{
+	margin-left:0.5rem!important;
+}
+#collapsibleNavbar{
+	padding-left:5rem!important;
+}
+.navbar-toggler{
+	margin-left:2rem!important;
+		text-align:center;
+}
+.dropdown-divider{
+	text-align:center;
+}
+.img-fluid{
+	background-image: url(wedding.gif);
+	filter:grayscale(100);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+	margin-bottom:0 em;
+	box-sizing:borderbox;
+	width:100%;
+	height:100%;
+	background-position:center;
+	margin-bottom:10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color:#ec008c;
+  color:white;
+}
+.caption{
+	position:relative;
+	color:white;
+	font-family:Apple Chancery;
+	font-style:italic;
+	font-size:2.5em;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0.1em 0.1em 0.1em black;
+	float:none;
+	margin-top:75px;
+	padding-top:2%;
+}
+.credit{
+	position:absolute;
+	color:white;
+	font-family:Century Gothic;
+	font-size:1em;
+	font-weight:bold;
+	padding-right:12px;
+	text-align:left;
+	right:0;
+	bottom: 0;
+	
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1vw 1vw;
+  color: white;
+  background-color:#ec008c;
+  text-align: center;
+  cursor: pointer;
+  font-size:1.2em;
+	font-weight:bold;
+}
+.hero-text button:hover {
+  background-color:white;
+  color: black;
+    font-size:1.2em;
+	font-weight:bold;
+}
+.image{
+	filter:grayscale(100);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-bottom:80px;
+}
+.about{
+	font-size:1.46em;
+	font-weight:bold;
+	color:black;
+	font-family:Apple Chancery;
+	font-style:italic;
+	text-align:left;
+	overflow:hidden;
+	box-sizing:borderbox;
+	margin-bottom:80px;
+}
+.quote{
+	position:relative;
+	color:black;
+	font-family:Apple Chancery;
+	font-style:italic;
+	font-size:2em;
+	font-weight:bold;
+	text-align:center;
+	margin-top:75px;
+	padding-top:1%;
+	margin-bottom:1%;
+	
+}
+.detail{
+	position:relative;
+	color:black;
+	font-family:Apple Chancery;
+	font-style:italic;
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:center;
+	float:none;
+	text-align:center;
+}
+.book{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	margin-bottom:80px;
+	margin-top:1.5%;
+}
+.book button{
+border: none;
+  outline: 0;
+  display: inline-block;
+   padding: 1vw 1vw;
+  color: white;
+  background-color:#ec008c;
+  text-align: center;
+  cursor: pointer;
+  font-size:1.2em;
+	font-weight:bold;
+}
+.book button:hover {
+  background-color:black;
+  color: white;
+    font-size:1.2em;
+	font-weight:bold;
+}
+.silver{
+	overflow:hidden;
+	box-sizing:borderbox;
+	background-color:white;
+	border:1px solid black;
+	box-shadow:0 2px 10px #ccc;
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+	background-position:center;
+	text-align:center;
+	font-size:1em;
+}
+.gold{
+	overflow:hidden;
+	box-sizing:borderbox;
+	background-color:white;
+	border:1px solid black;
+	box-shadow:0 2px 10px #ccc;
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+	background-position:center;
+	text-align:center;
+	font-size:1em;
+}
+.diamond{
+	font-size:1em;
+	overflow:hidden;
+	box-sizing:borderbox;
+	background-color:white;
+	border:1px solid black;
+	box-shadow:0 2px 10px #ccc;
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+	background-position:center;
+	text-align:center;
+}
+.silver img{
+	transition:1s;
+	background-position:center;
+	padding-left:5px;
+	padding-top:5px;
+	filter:grayscale(100);
+}
+.gold img{
+	transition:1s;
+	background-position:center;
+	padding-left:5px;
+	padding-top:5px;
+	filter:grayscale(100);
+}
+.diamond img{
+	transition:1s;
+	padding-left:5px;
+	padding-top:5px;
+	background-position:center;
+	filter:grayscale(100);
+}
+.silver :hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+.gold :hover {
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+.diamond :hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+.gallery{
+	position:absolute;
+	font-family:Apple Chancery;
+	font-style:italic;
+	font-size:38px;
+	font-weight:bold;
+	width:100%;
+	float:inherit;
+	text-align:center;
+	margin-bottom:80px;
+}
+.gallery img{
+	filter:grayscale(100);
+	transition:1s;
+	margin:8px 8px 8px 8px;
+	padding-top:5px;
+	width:325px;
+	transition:1s;
+}
+.gallery img:hover{
+	transform:scale(1.1);
+	filter:grayscale(0);
+}
+.holder{
+	box-sizing:borderbox;
+	height:auto;
+	width:100%;
+	text-align:center;
+	margin-bottom:80px;
+}
+.blog {
+	text-align:center;
+  border: 1px solid #ccc;
+  font-size:22px;
+  font-weight:bold;
+    height: auto;
+  width:330px;
+  height:400px;
+    display:inline-block;
+	margin:10px 10px 10px 10px;
+}
+.blog img {
+margin:8px 8px 8px 8px;
+  width:300px;
+  height:auto;
+  filter:grayscale(100);
+  transition:1s;
+  padding-top:5px;
+  display:inline-block;
+  text-align:center;
+}
+.blog img:hover {
+  border: 1px solid #777;
+   filter:grayscale(0);
+   transform:scale(1.1);
+     display:inline-block;
+	 text-align:center;
+}
+div.desc {
+  text-align: center;
+}
+.review2{
+	font-size:17px;
+	font-weight:bold;
+	color:black;
+	font-family:Century Gothic;
+	text-align:center;
+}
+.video{
+	position:relative;
+	text-align:center;
+	margin-bottom:80px;
+}
+.press{
+		position:absolute;
+	font-family:Apple Chancery;
+	font-style:italic;
+	font-size:38px;
+	font-weight:bold;
+	width:100%;
+	float:inherit;
+	text-align:center;
+	margin-bottom:80px;
+}
+.press img{
+	filter:grayscale(100);
+	transition:1s;
+	padding-bottom:15px;
+	margin-left:15px;
+	width:325px;
+	transition:1s;
+}
+.press img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+.box{
+	background-image: url(contactme.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+	background-position:center;
+	width:100%;
+	height:auto;
+	color:white;
+	font-family:Century Gothic;
+	font-size:18 px;
+	float:none;	
+	margin-bottom:70px;
+	font-weight:bold;
+	margin-top:70px;
+}
+.quote1{
+	position:relative;
+	color:white;
+	font-family:Apple Chancery;
+	font-style:italic;
+	text-shadow:0.1em 0.1em 0.1em black;
+	font-size:2em;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1%;
+	margin-bottom:1%;
+	
+}
+.form-border{
+	margin-top:0.5%;
+	margin-right:8%;
+	padding-bottom:1.2%;
+	overflow:hidden;
+	box-sizing:borderbox;
+	max-width:500px;
+	height:auto;
+	text-align:center;
+	float:right;
+	background:rgba(0,0,0,0.7);
+	color:white;
+	background:transparent;
+	background-color:black;
+	font-family:Century Gothic;
+	font-size:18 px;
+`	position:absolute;
+font-weight:bold;
+}
+.label{
+	color:white;
+	font-family:Century Gothic;
+	font-size:18 px;
+	text-align:left;
+	font-weight:bold;
+}
+.contact-us{
+	width:100%;
+	height:100%;
+	padding:40px,50px;
+	border-radius:5px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:18 px;
+	cursor:pointer;
+	font-weight:bold;
+}
+.items{
+	text-align:left;
+}
+input, select, textarea{
+	width:300px;
+}
+.input-fields{
+	padding:0 30px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:18 px;
+	font-weight:bold;
+}
+.input-fields .items{
+	width:100%;
+	padding-bottom:15px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:18 px;
+	font-weight:bold;
+}
+.input-fields .items .label{
+	display:block;
+	font-family:Century Gothic;
+	font-size:18 px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+.input-fields .items .input,
+.input-fields .items .text-area{
+	background:transparent;
+	border:0;
+	border:1px solid white;
+	width:100%;
+	padding:8px 10px;
+	color:white;
+	font-weight:bold;
+	font-family:Century Gothic;
+	font-size:18 px;
+}
+.click button{
+border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1vw 1vw;
+  color: white;
+  background-color:#ec008c;
+  text-align: center;
+  cursor: pointer;
+  font-size:1.2em;
+	font-weight:bold;
+	margin-bottom:1.8%;
+}
+.click button:hover {
+  background-color:white;
+  color: black;
+    font-size:1.2em;
+	font-weight:bold;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
