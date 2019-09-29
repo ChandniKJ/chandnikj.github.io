@@ -350,7 +350,7 @@ div.desc {
 	margin-bottom:70px;
 	font-weight:bold;
 	margin-top:70px;
-	margin-bottom:250px;
+	margin-bottom:80px;
 }
 .quote1{
 	position:relative;
@@ -462,6 +462,15 @@ border: none;
     font-size:1.2em;
 	font-weight:bold;
 }
+.space{
+	width:100%;
+	min-height:150px;
+	background-color:white;
+	position:absolute;
+	margin-top:800px;
+	float:none;
+}
+	
 .footer {
    position: fixed;
    left: 0;
