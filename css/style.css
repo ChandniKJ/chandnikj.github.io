@@ -343,7 +343,6 @@ div.desc {
 	position:absolute;
 	background-position:center;
 	width:100%;
-	height:auto;
 	color:white;
 	font-family:Century Gothic;
 	font-size:18 px;
@@ -351,7 +350,7 @@ div.desc {
 	margin-bottom:70px;
 	font-weight:bold;
 	margin-top:70px;
-	margin-bottom:180px;
+	margin-bottom:250px;
 }
 .quote1{
 	position:relative;
