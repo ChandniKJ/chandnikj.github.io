@@ -472,7 +472,8 @@ font-weight:bold;
    color: white;
    text-align: center;
 }
-.outer{
-	max-width:540;
-	max-height:315;
+.embeded-responsive-item{
+	max-width:540px;
+	text-align:center!important;
+	position:absolute;
 }
