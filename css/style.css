@@ -341,10 +341,10 @@ div.desc {
 }
 .quote1{
 	position:relative;
-	color:white;
+	color:black;
 	font-family:Apple Chancery;
 	font-style:italic;
-	text-shadow:0.1em 0.1em 0.1em black;
+	text-shadow:0.1em 0.1em 0.1em white;
 	font-size:2em;
 	font-weight:bold;
 	text-align:center;
