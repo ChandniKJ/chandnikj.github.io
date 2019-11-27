@@ -34,7 +34,6 @@
 }
 .img-fluid{
 	background-image: url(wedding.gif);
-	filter:grayscale(100);
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:absolute;
@@ -100,7 +99,6 @@
 	font-weight:bold;
 }
 .image{
-	filter:grayscale(100);
 	background-position:center;
 	background-repeat:no-repeat;
 	margin-bottom:80px;
@@ -211,32 +209,26 @@ border: none;
 	background-position:center;
 	padding-left:5px;
 	padding-top:5px;
-	filter:grayscale(100);
 }
 .gold img{
 	transition:1s;
 	background-position:center;
 	padding-left:5px;
 	padding-top:5px;
-	filter:grayscale(100);
 }
 .diamond img{
 	transition:1s;
 	padding-left:5px;
 	padding-top:5px;
 	background-position:center;
-	filter:grayscale(100);
 }
 .silver :hover{
-	filter:grayscale(0);
 	transform:scale(1.1);
 }
 .gold :hover {
-	filter:grayscale(0);
 	transform:scale(1.1);
 }
 .diamond :hover{
-	filter:grayscale(0);
 	transform:scale(1.1);
 }
 .gallery{
@@ -251,7 +243,6 @@ border: none;
 	margin-bottom:150px;
 }
 .gallery img{
-	filter:grayscale(100);
 	transition:1s;
 	margin:8px 8px 8px 8px;
 	padding-top:5px;
@@ -260,7 +251,6 @@ border: none;
 }
 .gallery img:hover{
 	transform:scale(1.1);
-	filter:grayscale(0);
 }
 .holder{
 	box-sizing:borderbox;
@@ -271,36 +261,35 @@ border: none;
 }
 .blog {
 	text-align:center;
-  border: 1px solid #ccc;
-  font-size:22px;
-  font-weight:bold;
+	border: 1px solid #ccc;
+	font-size:22px;
+	font-weight:bold;
     height: auto;
-  width:330px;
-  height:400px;
+	width:330px;
+	height:400px;
     display:inline-block;
 	margin:10px 10px 10px 10px;
 	margin-bottom:100px;
 }
 .blog img {
-margin:8px 8px 8px 8px;
-  width:300px;
-  height:auto;
-  filter:grayscale(100);
-  transition:1s;
-  padding-top:5px;
-  display:inline-block;
-  text-align:center;
+	margin:8px 8px 8px 8px;
+	width:300px;
+	height:auto;
+	transition:1s;
+	padding-top:5px;
+	display:inline-block;
+	text-align:center;
   
 }
 .blog img:hover {
-  border: 1px solid #777;
-   filter:grayscale(0);
-   transform:scale(1.1);
-     display:inline-block;
-	 text-align:center;
+	border: 1px solid #777;
+	filter:grayscale(0);
+	transform:scale(1.1);
+    display:inline-block;
+	text-align:center;
 }
 div.desc {
-  text-align: center;
+	text-align: center;
 }
 .review2{
 	font-size:17px;
@@ -315,7 +304,7 @@ div.desc {
 	margin-bottom:80px;
 }
 .press{
-		position:absolute;
+	position:absolute;
 	font-family:Apple Chancery;
 	font-style:italic;
 	font-size:38px;
@@ -326,7 +315,6 @@ div.desc {
 	margin-bottom:150px;
 }
 .press img{
-	filter:grayscale(100);
 	transition:1s;
 	padding-bottom:15px;
 	margin-left:15px;
@@ -335,7 +323,6 @@ div.desc {
 	margin-bottom:150px;
 }
 .press img:hover{
-	filter:grayscale(0);
 	transform:scale(1.1);
 }
 .box{
