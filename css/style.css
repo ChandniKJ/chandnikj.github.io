@@ -147,21 +147,21 @@
 	margin-top:1.5%;
 }
 .book button{
-border: none;
-  outline: 0;
-  display: inline-block;
-   padding: 1vw 1vw;
-  color: white;
-  background-color:#ec008c;
-  text-align: center;
-  cursor: pointer;
-  font-size:1.2em;
-  margin-top:2%;
+	border-color: black;
+	outline: 0;
+	display: inline-block;
+	padding: 1vw 1vw;
+	color: black;
+	background-color:#ec008c;
+	text-align: center;
+	cursor: pointer;
+	font-size:1.2em;
+	margin-top:2%;
 	font-weight:bold;
 }
 .book button:hover {
-  background-color:black;
-  color: white;
+	background-color:black;
+	color: #ec008c;
     font-size:1.2em;
 	font-weight:bold;
 }
